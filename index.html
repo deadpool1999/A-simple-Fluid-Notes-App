@@ -1,0 +1,74 @@
+<html lang="en">
+    <head>
+            <meta charset="UTF-16">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="notesapp.css">
+       
+       
+        <style type="text/css" media="screen">
+        </style>
+       <script type="text/javascript" src="notesapp.js" ></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script> 
+       <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+     <link rel="icon" href="./notes-icon-mac.jpg" type="image/x-icon">
+     <title>Notesapp</title>
+     
+    
+    </head>
+   
+    <body>
+      <div class="dark"> 
+        Dark theme <input id="darktheme" aria-placeholder="Dark theme" type="checkbox"> <div class="slider"> <div></div> </div>  
+      </div>
+      <h1 id="h1"> NOTE APP </h1>
+      <div class="task" >
+             
+           
+            <textarea id="text" cols="50"  rows="10"></textarea>
+            <div id="submit">
+             Add Note <input type="submit" id="addtask" aria-placeholder="add task">
+            </div>
+
+            <button id="ncat"> <div id="ncatdiv1"> </div> <div id="ncatdiv2"> </div> </button>
+            <div id="newcategory">
+               
+               
+                <div id="spanncat"> Enter the name </div> <input type="text" role="presentation" id="cattext" > <input type="submit" id="ncatname" >
+                  
+               
+            </div>
+            
+            
+            
+      </div> 
+      
+        <button id="newdonebt"> <div id="newdonediv1"> </div> <div id="newdonediv2"> </div> </button>
+      
+      <div id="categories" >
+          <br><br><span style="font-weight: bolder;font-size: larger;transform: translate(200px);"> &nbsp; ALL CATEGORIES... </span> </br></br> 
+               <ul class="displaycategories" >
+
+               </ul>
+      </div>
+      
+      <div class="alltask">
+        <button id="deletetasks">Delete Note</button>
+        <h2>NOTES...</h2>
+        <ul class="displaytask">
+          
+        </ul>
+      </div> 
+
+      <div id="show">
+          <div id="showprev">Preview</div>
+        <textarea id="showtext" rows="10"></textarea>
+        
+      </div>
+
+    </body>
+</html>
