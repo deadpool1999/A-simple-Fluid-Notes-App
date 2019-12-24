@@ -8,3 +8,8 @@ steps :
 4. in cmd type (after opening the folder with the files) {node server.js}
 5. in chrome open localhost:8000/index.html
 6. enjoy.
+
+
+This is a completely fun repo where anyone trying to learn Mongodb, nodejs and JavaScript will definitely find it interesting!!!
+And I hope this repo will be helpful for you to learn js quickly!!!!! 
+Happy learning!!!!
