@@ -11,6 +11,8 @@ steps :
 7. enjoy.
 8. or just open the .exe file
 
+put your desired mongodb connection string in the login page.
+
 Here anyone trying to learn Mongodb, nodejs and JavaScript will definitely find it interesting!!!
 And I hope this repo will be helpful for you to learn js quickly!!!!! 
 Happy learning!!!!
