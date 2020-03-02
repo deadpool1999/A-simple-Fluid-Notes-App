@@ -11,6 +11,6 @@ steps :
 7. enjoy.
 8. or just open the .exe file
 
-This is a completely fun repo where anyone trying to learn Mongodb, nodejs and JavaScript will definitely find it interesting!!!
+Here anyone trying to learn Mongodb, nodejs and JavaScript will definitely find it interesting!!!
 And I hope this repo will be helpful for you to learn js quickly!!!!! 
 Happy learning!!!!
