@@ -10,12 +10,13 @@ body {
    
 }
 h1{
-    
-    transform: translate(30vh,-13vh);
-    background: rgb(255, 0, 128) ;
+    position: absolute;
+    transform: translate(30vh,-100px);
+    background: black ;
     color: bisque ;
     width: 170vh;
-    
+   
+    z-index: -1;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-stretch: semi-expanded ;
     font-style: italic ; 
@@ -159,6 +160,25 @@ input[type="checkbox"]{
     
 
 }
+#settings{
+    background: white;
+    position: fixed;
+    transform: translate(0,600px);
+    z-index: 2;
+}
+#settingsimg{
+    
+    width: 30px;
+    height: 30px;
+    
+   
+}
+#settingscheck{
+    position: fixed;
+    z-index: 1;
+    opacity: 0;   
+    
+}
 #text{
     size: 100%;
     width: 50vh;
@@ -179,11 +199,12 @@ input[type="checkbox"]{
 }
 .dark{
     
+    
     transform: translate(80%,5vh);
     font-size: 40px;
     color: pink ;
     text-shadow: 5px 5px 10px rgb(255, 143, 190) ;
-    z-index: 0;
+    z-index: 1000;
     
 }
 #darktheme{
