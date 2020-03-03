@@ -7,7 +7,7 @@ steps :
 3. Download and install node.Js 
 4. Clone or download the files.
 5. in cmd type (after opening the folder with the files) {node server.js}
-6. in chrome open localhost:8000/index.html
+6. in chrome open localhost:8000/login.html
 7. enjoy.
 8. or just open the .exe file
 
